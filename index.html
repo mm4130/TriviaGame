@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<div id="body-container" class="container-fluid">
+
+<div class="row">
+	
+	<div class="col-md-2"></div>
+
+	<div id="begin" class="col-md-8 center-block well well-lg text-center">
+		
+		<h1>Pokemon Trivia</h1>
+
+		<button type="button" id="start" class="btn btn-primary btn-lg">Start</button>
+
+	</div>
+
+	<div class="col-md-2"></div>
+
+</div>
+
+<div class="row">
+	
+	<div class="col-md-2"></div>
+
+	<div id="middle" class="col-md-8 center-block well well-lg text-center">
+		
+		<h1>Pokemon Trivia</h1>
+
+		<p>Time Remaining: <span id="timer"></span></p>
+
+	
+		<form id="myform" action="index.html">
+			
+			<p>In the original red and blue version how many pokemon were there in the game?<p>
+			
+			<input type="radio" name="question1" value="a">251</input>
+
+			<input type="radio" name="question1" value="b">151</input>
+
+			<input type="radio" name="question1" value="c">150</input>
+
+			<input type="radio" name="question1" value="d">802</input>
+
+			<p>which of the original pokemon contains the dna of all other pokemon?</p>
+			
+			<input type="radio" name="question2" value="a">Magikarp</input>
+
+			<input type="radio" name="question2" value="b">Arceus</input>
+
+			<input type="radio" name="question2" value="c">Mew</input>
+
+			<input type="radio" name="question2" value="d">Pikachu</input>
+
+			<p>Before pikachu became the mascot of the pokemon franchise who was the other who was considered to be the mascot?</p>
+
+			<input type="radio" name="question3" value="a">Clefairy</input>
+
+			<input type="radio" name="question3" value="b">Rattata</input>
+
+			<input type="radio" name="question3" value="c">Charmander</input>
+
+			<input type="radio" name="question3" value="d">Raichu</input>
+
+		</form>
+
+		<button type="button" id="done" class="btn btn-primary btn-lg">Done</button>
+
+	</div>
+
+	<div class="col-md-2"></div>
+
+</div>
+
+<div class="row">
+	
+	<div class="col-md-2"></div>
+
+	<div id="end" class="col-md-8 well well-lg center-block text-center">
+		
+		<h1>Pokemon Trivia</h1>
+
+		<p>Correct Answers : <span id="correct">0</span></p>
+
+		<p>Incorrect Answers : <span id="incorrect">0</span></p>
+
+		<p>Unanswered : <span id="unanswered">0</span></p>
+
+	</div>
+
+	<div class="col-md-2"></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

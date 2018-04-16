@@ -1,6 +1,6 @@
 #  Pokemon Trivia Game
 
-In this homework assignment using javascript fucntions such as " setInterval" and "setTimeout" we add a timer to trivia quiz game.
+In this homework assignment using javascript functions such as " setInterval" and "setTimeout", we add a timer to a trivia quiz game.
 
 ## Prerequisites
 
